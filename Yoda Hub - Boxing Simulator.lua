@@ -8,7 +8,6 @@ local Section1 = Tab:NewSection("Automatic")
             local A_1 = true
             local Event = game:GetService("ReplicatedStorage").Events.SellRequest
             Event:FireServer(A_1)
-
         end
     end)
     Section1:NewToggle("Auto DogeCoins", "Auto DogeCoins", function(state)
