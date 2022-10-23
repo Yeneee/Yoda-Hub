@@ -20,10 +20,10 @@ local Section1 = Tab:NewSection("Automatic")
                 end
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Canes.CandyCane.HumanoidRootPart.CFrame
             wait(0.25)
-            
+            end
         else
             local doge = false
-        end
+       
         end
     end)
 
